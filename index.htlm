@@ -1,0 +1,122 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nucli12 — Business Center en Barcelona</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Nucli12: 12 despachos privados, hot desks tipo coworking y servicio de domiciliación fiscal en Ronda de Sant Pere 19, 7º 1º, 08010 Barcelona." />
+
+  <!-- Estilos -->
+  styles.css
+</head>
+<body>
+
+  <!-- Header oscuro con tu logo -->
+  <header class="site-header dark">
+    <div class="container header-wrap">
+      #
+        assets/nucli12-logo-black-green.png
+      </a>
+      <nav aria-label="Navegación principal">
+        <ul class="nav">
+          <li>#serviciosServicios</a></li>
+          <li>#despachosDespachos</a></li>
+          <li>#coworkingCoworking</a></li>
+          <li>#domiciliacionDomiciliación Fiscal</a></li>
+          <li>#ubicacionUbicación</a></li>
+          <li>#contactoContacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" role="banner">
+    <div class="container">
+      <div class="hero-content">
+        <h1><span class="accent">Espacios profesionales</span> en el corazón de Barcelona</h1>
+        <p>12 despachos privados, 2 hot desks y <strong>domiciliación fiscal</strong> para empresas en Ronda de Sant Pere 19 (7º 1º).</p>
+        <div class="cta-group">
+          #contactoReservar visita</a>
+          #domiciliacionDomiciliar mi empresa</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Secciones -->
+  <section id="servicios" class="section">
+    <div class="container">
+      <h2>Servicios</h2>
+      <p>Despachos privados, hot desk tipo coworking y domiciliación fiscal.</p>
+    </div>
+  </section>
+
+  <section id="despachos" class="section">
+    <div class="container">
+      <h2>Despachos privados</h2>
+      <p>Espacios de 1 a 6 puestos, fibra simétrica, acceso 24/7 y climatización.</p>
+    </div>
+  </section>
+
+  <section id="coworking" class="section">
+    <div class="container">
+      <h2>Hot desk tipo coworking</h2>
+      <p>Puestos flexibles por días u horas, con acceso a servicios y zonas comunes.</p>
+    </div>
+  </section>
+
+  <section id="domiciliacion" class="section highlight">
+    <div class="container">
+      <h2>Domiciliación fiscal</h2>
+      <ul class="bullets">
+        <li>Dirección fiscal y social en Ronda de Sant Pere 19</li>
+        <li>Recepción y gestión de correspondencia</li>
+        <li>Notificación inmediata por email</li>
+        <li>Opcional: atención telefónica y sala de reuniones</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="ubicacion" class="section">
+    <div class="container">
+      <h2>Ubicación</h2>
+      <p><strong>Ronda de Sant Pere 19, 7º 1º, 08010 Barcelona</strong></p>
+      <div class="map">
+        https://www.google.com/maps?q=Ronda+de+Sant+Pere+19,+08010+Barcelona&output=embed</iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="section">
+    <div class="container">
+      <h2>Contacto</h2>
+      <div class="two-col">
+        https://formspree.io/f/tu-form-id
+          <label>Nombre<br><input type="text" name="nombre" required></label>
+          <label>Email<br><input type="email" name="email" required></label>
+          <label>Teléfono<br><input type="tel" name="telefono"></label>
+          <label>Mensaje<br><textarea name="mensaje" rows="5" required></textarea></label>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+
+        <div class="contact-info">
+          <p><strong>Teléfono:</strong> +34 682 169 377</p>
+          <p><strong>Email:</strong> info@nucli12.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Nucli12 — Barcelona</p>
+    </div>
+  </footer>
+
+  script.js</script>
+</body>
+</html>

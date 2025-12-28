@@ -1,0 +1,45 @@
+
+:root {
+  --primary: #004225; /* verde inglés */
+  --accent:  #C6A15B; /* dorado del símbolo */
+  --text:    #0f0f12;
+  --muted:   #5b5b66;
+  --bg:      #f6f6f8;
+  --border:  rgba(0,0,0,0.08);
+  --radius:  16px;
+}
+* { box-sizing: border-box; }
+body { margin:0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color:var(--text); background:var(--bg); }
+.container { width:min(1100px, 92vw); margin:0 auto; }
+
+/* Header */
+.site-header.dark { background:#000; border-bottom:1px solid rgba(255,255,255,0.08); position:sticky; top:0; z-index:1000; }
+.header-wrap { display:flex; align-items:center; justify-content:space-between; padding:14px 0; }
+.logo { display:inline-flex; align-items:center; gap:10px; text-decoration:none; }
+.logo img { height:32px; width:auto; display:block; }
+.nav { list-style:none; display:flex; gap:18px; margin:0; padding:0; }
+.nav a { color:#eaeaea; text-decoration:none; padding:8px 10px; border-radius:10px; }
+.nav a:hover { background:rgba(255,255,255,0.08); }
+
+/* Secciones */
+.section { padding:64px 0; }
+.section h2 { font-weight:700; font-size:clamp(26px, 4vw, 36px); margin:0 0 18px; }
+.highlight { background:linear-gradient(180deg, rgba(255,255,255,0.75), rgba(255,255,255,0.6)); }
+
+.hero { position:relative; }
+.hero .container { padding:64px 0 48px; }
+.hero .accent { color:var(--accent); }
+.cta-group { display:flex; gap:12px; margin-top:18px; }
+.btn { display:inline-flex; align-items:center; padding:12px 18px; border-radius:12px; text-decoration:none; font-weight:600; }
+.btn-primary { background:var(--primary); color:#fff; border:none; }
+.btn-primary:hover { filter:brightness(1.05); }
+
+.map { border:1px solid var(--border); border-radius:var(--radius); overflow:hidden; }
+.map iframe { width:100%; height:360px; border:0; }
+
+.two-col { display:grid; grid-template-columns:1.15fr 0.85fr; gap:28px; align-items:start; }
+.contact-form input, .contact-form textarea { width:100%; padding:10px 12px; border:1px solid var(--border); border-radius:10px; }
+
+/* Footer */
+.site-footer { padding:28px 0; border-top:1px solid var(--border); background:rgba(255,255,255,0.75); }
+.footer-wrap { display:flex; align-items:center; justify-content:space-between; }
